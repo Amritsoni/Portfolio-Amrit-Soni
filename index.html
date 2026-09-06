@@ -1,1212 +1,696 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Amrit's-Portfolio</title>
-
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
-
-<body>
-
-  <!--
-    - #MAIN
-  -->
-
-  <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Amrit Soni</h1>
-
-          <p class="title">Software Developer || Data Analyst</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:soniamrat77@gmail.com" class="contact-link"> soniamrat77@gmail.com </a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+12133522795" class="contact-link">+91 7887251640</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">DOB</p>
-
-              <time datetime="1982-06-23">Dec 08, 2003</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Banda, Uttar Pradesh, India</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          
-
-          <p>
-            Hello! I'm Amrit Soni, a Computer Science graduate with a strong focus on backend development and data analysis. I have a proven track record in designing and implementing robust backend systems for websites, utilizing technologies. My projects demonstrate my ability to deliver scalable, secure solutions that en-hance user experience. 
-          </p> 
-          <p>
-          In addition to backend development, I am skilled in data analysis, proficient in extracting insights from complex datasets using tools and language's like Tableau Excel - ApachSpark Scala Python. I am passionate about continuous learning and thrive in collaborative environments where I can contribute innovative ideas.           
-        </p>
-        <p>
-            I  am eager to leverage my skills and experience to contribute effectively to a dynamic team environment. Let's connect and discuss how my background aligns with your organization's needs.
-          </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">What i'm doing</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web Design</h4>
-
-                <p class="service-item-text">
-                  Skilled in crafting visually appealing and user-friendly web designs, blending creativity with technical expertise to deliver engaging digital experiences.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web Development</h4>
-
-                <p class="service-item-text">
-                  Experienced in full-stack web development, with a strong focus on backend architecture and API integration. Proficient in utilizing technologies to build robust, scalable, and efficient web applications.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Data Analysis</h4>
-
-                <p class="service-item-text">
-                  Proficient in leveraging advanced analytical tools and methodologies to derive actionable insights from complex datasets, contributing to informed decision-making and strategic planning.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">API Development</h4>
-
-                <p class="service-item-text">
-                  Experienced in developing robust APIs using Node.js, ensuring efficient data transmission and seamless integration across web applications and follow the best practices in performannce and security.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials
-        -->
-
-        <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">Achievements</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>250+ DSA Questions </h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Engineered an algorithm that solved a critical data structure challenge, optimizing efficiency and demonstrating proficiency in Data Structures and Algorithms.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Graphics Designer — Pahal An Initiation</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Contributed creatively to Pahal Organization for 1.5 years as a Graphics Designer, producing impactful visual designs that aligned with organizational goals and enhanced brand presence.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-           
-          </ul>
-
-        </section>
-
-
-      
-
-       <!--  
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title></h4>
-
-              <time datetime="2021-06-14">01 Dec, 2020 — Current </time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
-        </div>
-
-      
-        <!--
-          - clients
-        -->
-
-        <section class="clients">
-
-          <h3 class="h3 clients-title">Clients</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article> 
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amrit Soni — Java Backend Engineer & Data Engineer</title>
+<meta name="description" content="Amrit Soni — Java backend engineer at Capgemini building REST APIs and microservices, with hands-on data engineering in Python, SQL and Kafka.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink-900:#101826;
+    --ink-800:#182236;
+    --ink-line:#2A3650;
+    --ink-muted:#9AA7BC;
+    --ink-text:#F3F1EA;
  
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Bachelor of Technology (CSE) — Lovely Professional University</h4>
-
-            <span>2020 — 2024 </span>
-
-              <p class="timeline-text">
-                Completed B.Tech in Computer Science from Lovely Professional University, gaining extensive experience and honing skills in the field.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Intermediate — BPMP Omer Inter College</h4>
-
-              <span>2019 — 2020</span>
-
-              <p class="timeline-text">
-                Engaged extensively in school activities including physical education, science projects, and drama plays, fostering a well-rounded skill set and diverse experiences.
-
-
-
-
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">HighSchool — BPMP Omer Inter College</h4>
-
-              <span>2017 — 2018</span>
-
-              <p class="timeline-text">
-                Engaged extensively in school activities including physical education, science projects, and drama plays, fostering a well-rounded skill set and diverse experiences.
-
-
-
-
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience — Certification </h3>
-          </div>
-
-          <ol class="timeline-list">
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">MedX-Pharmacy(Web Application) - Capstone Project</h4>
-
-              <span> Jan 20 2024 — May 22 2024</span>
-
-              <p class="timeline-text"> 
-      
-                Developed MedX-Pharmacy web application to streamline medication management, ensuring efficient prescription orders, inventory tracking, and customer interactions, enhancing overall pharmacy operations and 
-                featuring a Reminder application for medication schedules, alongside a Stress Relief game to promote wellness among users. These additions enhance functionality and user engagement significantly.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Database Management System Part-1 — Infosys|Springboard</h4>
-
-              <span>May 18 2023 — July 10 2023</span>
-
-              <p class="timeline-text">
-                Completed Database Management System Part-1 with Infosys|Springboard, gaining practical skills in database management crucial for professional development.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Code-a-Thon — Programming Pathshala </h4>
-
-              <span>Jan 10 2023 — May 15 2023</span>
-
-              <p class="timeline-text">
-                Participated in the 24-hour CODE-A-THON at Lovely Professional University, collaborating with team members to develop a fitness website offering personalized diet plans and real-time weather forecasting based on user locations.
-              </p>
-
-            </li>
-
-            
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Real Time Game Desgining - Unity</h4>
-
-              <span> Jan 04 2021 — Jan 19 2021</span>
-
-              <p class="timeline-text"> 
-      
-                Completed Real Time Game Design course using Unity Software, creating a 2D game akin to Bird Game and Mario, showcasing skills in game development and design.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Web Development - HTML CSS JavaScript </h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Languages</h5>
-               
-               
-                
-              </div>
-              <div class="title-wrapper">
-              <h6 class= "h5">C++</h6>
-              <data value="80">90%</data>
-               </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-         
-            <br>
-            <div class="title-wrapper">
-              <h6 class= "h5">JavaScript Frameworks - MongoDB NodeJS Express.js Bootstrap jQuery</h6>
-              <data value="80">80%</data>
-            </div>
-        
-            <div class="skill-progress-bg">
-              <div class="skill-progress-fill" style="width: 80%;"></div>
-            </div>
-            <br>
-            <div class="title-wrapper"><h6 class= "h5">Scala-Python</h6>
-              <data value="80">70%</data>
-            </div>
-            
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-              <br>
-              <div class="title-wrapper"><h6 class= "h5">SQL/MySQL</h6>
-                <data value="80">90%</data>
-              </div>
-              
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 90%;"></div>
-                </div>
-              
-            
-
-            </li>
-
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Data Analysis Tools - Tableau Apache-Spark Excel</h5>
-                <data value="70">85%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 85%;"></div>
-              </div>
-
-            </li>
-
-
-            <!-- <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
-                <data value="50">50%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
-
-            </li> -->
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Fundo</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Brawlhalla</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-      <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article>
-
+    --paper:#F6F3EC;
+    --paper-line:#DBD4C2;
+    --text-900:#1B2430;
+    --text-muted:#746C5C;
+ 
+    --teal:#0F6B62;
+    --teal-soft:#E2EFEA;
+    --teal-line:#B9D6CC;
+ 
+    --amber:#B8701F;
+    --amber-soft:#F7ECDA;
+    --amber-line:#E4C793;
+ 
+    --radius:6px;
+    --max-line:66ch;
+  }
+ 
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation-duration:0.001ms !important; transition-duration:0.001ms !important;}
+  }
+ 
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--text-900);
+    font-family:'Inter', -apple-system, sans-serif;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+ 
+  h1,h2,h3,h4{
+    font-family:'Space Grotesk', 'Inter', sans-serif;
+    font-weight:600;
+    line-height:1.15;
+    margin:0;
+    letter-spacing:-0.01em;
+  }
+ 
+  a{color:inherit;}
+  a:focus-visible, button:focus-visible{
+    outline:2px solid var(--teal);
+    outline-offset:3px;
+  }
+ 
+  code, .mono{ font-family:'JetBrains Mono', monospace; }
+ 
+  /* ---------- layout ---------- */
+  .layout{
+    display:grid;
+    grid-template-columns: 272px 1fr;
+    min-height:100vh;
+  }
+ 
+  .sidebar{
+    background:var(--ink-900);
+    color:var(--ink-text);
+    padding:2rem 1.75rem;
+    position:sticky;
+    top:0;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    gap:2.25rem;
+    overflow-y:auto;
+  }
+ 
+  .brand{ display:flex; align-items:center; gap:0.85rem; }
+  .mono-badge{
+    width:44px; height:44px; border-radius:var(--radius);
+    background:var(--ink-800); border:1px solid var(--ink-line);
+    display:flex; align-items:center; justify-content:center;
+    font-family:'JetBrains Mono', monospace; font-size:0.85rem; letter-spacing:0.02em;
+    color:var(--ink-text); flex-shrink:0;
+  }
+  .brand-name{ margin:0; font-size:1.02rem; font-weight:600; font-family:'Space Grotesk',sans-serif;}
+  .brand-role{ margin:0.15rem 0 0; font-size:0.8rem; color:var(--ink-muted); }
+ 
+  .routes{ display:flex; flex-direction:column; gap:0.15rem; }
+  .route{
+    display:flex; align-items:center; gap:0.6rem;
+    padding:0.55rem 0.6rem;
+    border-radius:var(--radius);
+    text-decoration:none;
+    color:var(--ink-muted);
+    font-family:'JetBrains Mono', monospace;
+    font-size:0.85rem;
+    border-left:2px solid transparent;
+    transition:color .15s ease, border-color .15s ease, background .15s ease;
+  }
+  .route:hover{ color:var(--ink-text); background:var(--ink-800); }
+  .route.is-active{
+    color:var(--ink-text);
+    border-left-color:var(--teal);
+    background:var(--ink-800);
+  }
+  .route .dot{
+    width:6px; height:6px; border-radius:50%;
+    background:var(--ink-line); flex-shrink:0;
+  }
+  .route.is-active .dot{ background:var(--teal); }
+ 
+  .sidebar-contact{
+    margin-top:auto;
+    padding-top:1.5rem;
+    border-top:1px solid var(--ink-line);
+    display:flex; flex-direction:column; gap:0.45rem;
+  }
+  .sidebar-label{ margin:0 0 0.35rem; font-size:0.72rem; color:var(--ink-muted); text-transform:none; }
+  .sidebar-link{ font-size:0.85rem; text-decoration:none; color:var(--ink-text); word-break:break-word; }
+  .sidebar-link:hover{ color:var(--teal); }
+  .sidebar-muted{ margin:0.15rem 0 0; font-size:0.8rem; color:var(--ink-muted); }
+ 
+  .resume-btn{
+    margin-top:1rem;
+    display:flex; align-items:center; justify-content:center; gap:0.5rem;
+    padding:0.65rem 1rem;
+    background:var(--teal);
+    color:#F5FBF9;
+    border-radius:var(--radius);
+    text-decoration:none;
+    font-size:0.85rem; font-weight:500;
+    border:1px solid var(--teal);
+    transition:background .15s ease;
+  }
+  .resume-btn:hover{ background:#0C554E; }
+  .resume-btn svg{ width:16px; height:16px; flex-shrink:0; }
+ 
+  .content{ padding: 3.5rem 3rem 6rem; max-width:920px; }
+  .panel{ padding-top:3rem; padding-bottom:1rem; scroll-margin-top:2rem; }
+  .panel + .panel{ border-top:1px solid var(--paper-line); }
+  .panel h2{ font-size:1.5rem; margin-bottom:1.75rem; }
+  .panel h3{ font-size:1.05rem; margin:2.25rem 0 1rem; }
+ 
+  /* ---------- about / hero ---------- */
+  .about h1{ font-size:clamp(2rem, 4vw, 2.75rem); }
+  .role-line{
+    max-width:var(--max-line);
+    font-size:1.05rem;
+    color:var(--text-muted);
+    margin:0.9rem 0 0;
+  }
+ 
+  .diagram{ margin:2.25rem 0; overflow-x:auto; }
+  .diagram svg{ min-width:640px; width:100%; height:auto; }
+ 
+  .track-filter{ display:flex; flex-wrap:wrap; gap:0.6rem; margin:1.75rem 0; }
+  .track-btn{
+    font-family:'JetBrains Mono', monospace;
+    font-size:0.78rem;
+    padding:0.5rem 0.9rem;
+    border-radius:999px;
+    border:1px solid var(--paper-line);
+    background:transparent;
+    color:var(--text-muted);
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  .track-btn:hover{ border-color:var(--text-900); color:var(--text-900); }
+  .track-btn.is-active{ background:var(--text-900); border-color:var(--text-900); color:var(--paper); }
+ 
+  .summary{ max-width:var(--max-line); margin:0 0 2rem; color:var(--text-900); }
+ 
+  .capabilities{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:1.25rem;
+  }
+  .capability{
+    padding:1.1rem 1.2rem;
+    border:1px solid var(--paper-line);
+    border-left:3px solid var(--text-900);
+    border-radius:var(--radius);
+    background:#FBFAF6;
+  }
+  .capability[data-track-item="backend"]{ border-left-color:var(--teal); }
+  .capability[data-track-item="data"]{ border-left-color:var(--amber); }
+  .capability h4{ font-size:0.95rem; margin-bottom:0.4rem; }
+  .capability p{ margin:0; font-size:0.88rem; color:var(--text-muted); }
+ 
+  /* ---------- timeline ---------- */
+  .timeline{ list-style:none; margin:0; padding:0; border-left:1px solid var(--paper-line); }
+  .timeline-item{ position:relative; padding:0 0 2rem 1.75rem; }
+  .timeline-item::before{
+    content:''; position:absolute; left:-5px; top:0.35rem;
+    width:9px; height:9px; border-radius:50%;
+    background:var(--paper); border:2px solid var(--teal);
+  }
+  .timeline-item h4{ font-size:1.02rem; margin-bottom:0.2rem; }
+  .timeline-meta{ font-family:'JetBrains Mono', monospace; font-size:0.78rem; color:var(--text-muted); }
+  .timeline-item ul{ margin:0.85rem 0 0; padding-left:1.1rem; }
+  .timeline-item li{ margin-bottom:0.45rem; font-size:0.93rem; }
+ 
+  .edu-block{ font-size:0.93rem; }
+  .edu-block strong{ display:block; margin-bottom:0.2rem; font-family:'Space Grotesk',sans-serif; }
+ 
+  .stat-badge{
+    display:inline-flex; align-items:center; gap:0.5rem;
+    font-family:'JetBrains Mono', monospace; font-size:0.8rem;
+    padding:0.4rem 0.75rem; border:1px solid var(--paper-line); border-radius:999px;
+    margin-bottom:0.4rem;
+  }
+ 
+  .cert-list{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:0.55rem; }
+  .cert-list li{ font-size:0.93rem; padding-left:1rem; position:relative; }
+  .cert-list li::before{ content:'–'; position:absolute; left:0; color:var(--text-muted); }
+ 
+  /* ---------- projects ---------- */
+  .project-grid{ display:flex; flex-direction:column; gap:1.5rem; }
+  .project{
+    border:1px solid var(--paper-line);
+    border-left:4px solid var(--text-900);
+    border-radius:var(--radius);
+    padding:1.5rem 1.6rem;
+    background:#FBFAF6;
+  }
+  .project[data-track-item="backend"]{ border-left-color:var(--teal); }
+  .project[data-track-item="data"]{ border-left-color:var(--amber); }
+  .project[data-track-item="both"]{ border-left-color:var(--text-900); }
+ 
+  .project-head{ display:flex; flex-wrap:wrap; justify-content:space-between; gap:0.5rem 1rem; align-items:baseline; }
+  .project-head h3{ margin:0; font-size:1.08rem; }
+  .project-context{ font-family:'JetBrains Mono', monospace; font-size:0.76rem; color:var(--text-muted); }
+ 
+  .tag-row{ display:flex; flex-wrap:wrap; gap:0.4rem; margin:0.75rem 0 1rem; }
+  .tag{
+    font-family:'JetBrains Mono', monospace; font-size:0.72rem;
+    padding:0.2rem 0.5rem; border-radius:4px;
+    border:1px solid var(--paper-line); color:var(--text-muted);
+  }
+  .project[data-track-item="backend"] .tag{ border-color:var(--teal-line); color:var(--teal); background:var(--teal-soft); }
+  .project[data-track-item="data"] .tag{ border-color:var(--amber-line); color:var(--amber); background:var(--amber-soft); }
+ 
+  .project ul{ margin:0; padding-left:1.1rem; }
+  .project li{ font-size:0.92rem; margin-bottom:0.4rem; }
+ 
+  /* ---------- skills ---------- */
+  .skills-columns{
+    display:grid; grid-template-columns:repeat(3, 1fr); gap:2rem;
+  }
+  .skill-col h3{ margin-top:0; font-size:0.95rem; display:flex; align-items:center; gap:0.5rem; }
+  .track-swatch{ width:9px; height:9px; border-radius:2px; display:inline-block; }
+  .skill-col[data-track-item="backend"] .track-swatch{ background:var(--teal); }
+  .skill-col[data-track-item="data"] .track-swatch{ background:var(--amber); }
+  .skill-col[data-track-item="both"] .track-swatch{ background:var(--text-900); }
+ 
+  .chip-list{ display:flex; flex-wrap:wrap; gap:0.4rem; }
+  .chip{
+    font-family:'JetBrains Mono', monospace; font-size:0.76rem;
+    padding:0.3rem 0.6rem; border-radius:4px; border:1px solid var(--paper-line);
+    color:var(--text-900); background:#FBFAF6;
+  }
+  .skill-col[data-track-item="backend"] .chip{ border-color:var(--teal-line); }
+  .skill-col[data-track-item="data"] .chip{ border-color:var(--amber-line); }
+ 
+  /* ---------- filtering ---------- */
+  body.filter-backend [data-track-item="data"]{ opacity:0.32; }
+  body.filter-data [data-track-item="backend"]{ opacity:0.32; }
+ 
+  /* ---------- contact ---------- */
+  .contact-grid{
+    display:grid; grid-template-columns:repeat(2, 1fr); gap:0.9rem; margin-top:1.5rem;
+  }
+  .contact-card{
+    display:flex; align-items:center; gap:0.75rem;
+    padding:0.9rem 1rem; border:1px solid var(--paper-line); border-radius:var(--radius);
+    text-decoration:none; color:var(--text-900); background:#FBFAF6;
+    font-size:0.9rem;
+  }
+  .contact-card svg{ width:18px; height:18px; flex-shrink:0; color:var(--teal); }
+  .contact-card:hover{ border-color:var(--teal); }
+  .contact-card button{ all:inherit; cursor:pointer; width:100%; display:flex; align-items:center; gap:0.75rem; }
+ 
+  footer{ padding:2.5rem 3rem; color:var(--text-muted); font-size:0.8rem; }
+ 
+  /* ---------- responsive ---------- */
+  @media (max-width: 900px){
+    .layout{ grid-template-columns:1fr; }
+    .sidebar{
+      position:sticky; height:auto; top:0; z-index:10;
+      flex-direction:row; align-items:center; gap:1rem;
+      padding:0.9rem 1.25rem; overflow-x:auto;
+    }
+    .brand{ flex-shrink:0; }
+    .routes{ flex-direction:row; gap:0.25rem; }
+    .route{ white-space:nowrap; }
+    .sidebar-contact, .resume-btn{ display:none; }
+    .content{ padding:2rem 1.25rem 4rem; }
+    .capabilities{ grid-template-columns:1fr; }
+    .skills-columns{ grid-template-columns:1fr; gap:1.5rem; }
+    .contact-grid{ grid-template-columns:1fr; }
+    footer{ padding:2rem 1.25rem; }
+  }
+</style>
+</head>
+<body>
+ 
+<div class="layout">
+ 
+  <header class="sidebar" id="sidebar">
+    <div class="brand">
+      <div class="mono-badge">AS</div>
+      <div>
+        <p class="brand-name">Amrit Soni</p>
+        <p class="brand-role">Backend &amp; Data Engineer</p>
+      </div>
     </div>
-
+ 
+    <nav class="routes" aria-label="Sections">
+      <a href="#about" class="route is-active" data-route="about"><span class="dot"></span>/about</a>
+      <a href="#experience" class="route" data-route="experience"><span class="dot"></span>/experience</a>
+      <a href="#projects" class="route" data-route="projects"><span class="dot"></span>/projects</a>
+      <a href="#skills" class="route" data-route="skills"><span class="dot"></span>/skills</a>
+      <a href="#contact" class="route" data-route="contact"><span class="dot"></span>/contact</a>
+    </nav>
+ 
+    <div class="sidebar-contact">
+      <p class="sidebar-label">Reach me</p>
+      <a class="sidebar-link" href="mailto:soniamrat88@gmail.com">soniamrat88@gmail.com</a>
+      <a class="sidebar-link" href="tel:+917887251640">+91 78872 51640</a>
+      <p class="sidebar-muted">Pune, Maharashtra, India</p>
+    </div>
+ 
+    <a class="resume-btn" href="AmritSoni_Resume.pdf" download>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="M7 10l5 5 5-5"/><path d="M5 21h14"/></svg>
+      Download résumé
+    </a>
+  </header>
+ 
+  <main class="content">
+ 
+    <!-- ABOUT -->
+    <section id="about" class="panel about">
+      <h1>Amrit Soni</h1>
+      <p class="role-line">Java backend engineer at Capgemini, building REST APIs and microservices — and building a parallel track in data engineering with Python, SQL, Kafka and analytics.</p>
+ 
+      <div class="diagram" aria-hidden="false">
+        <svg viewBox="0 0 760 140" role="img" aria-label="Diagram showing a client request flowing through a Spring Boot API, into a Kafka and Python data pipeline, producing insights">
+          <defs>
+            <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" fill="#AFA890"></path>
+            </marker>
+          </defs>
+          <line x1="170" y1="70" x2="208" y2="70" stroke="#AFA890" stroke-width="1.6" marker-end="url(#arrow)"/>
+          <line x1="360" y1="70" x2="398" y2="70" stroke="#AFA890" stroke-width="1.6" marker-end="url(#arrow)"/>
+          <line x1="550" y1="70" x2="588" y2="70" stroke="#AFA890" stroke-width="1.6" marker-end="url(#arrow)"/>
+ 
+          <rect x="20" y="30" width="150" height="80" rx="10" fill="#FBFAF6" stroke="#DBD4C2" stroke-width="1.4"/>
+          <text x="95" y="65" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="14" fill="#1B2430" font-weight="600">Request</text>
+          <text x="95" y="84" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10.5" fill="#746C5C">client · UI</text>
+ 
+          <rect x="210" y="20" width="150" height="100" rx="10" fill="#E2EFEA" stroke="#B9D6CC" stroke-width="1.4"/>
+          <text x="285" y="60" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="14" fill="#0F6B62" font-weight="600">Spring Boot</text>
+          <text x="285" y="78" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="14" fill="#0F6B62" font-weight="600">API</text>
+          <text x="285" y="98" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10.5" fill="#3E7A72">Java · REST · JWT</text>
+ 
+          <rect x="400" y="20" width="150" height="100" rx="10" fill="#F7ECDA" stroke="#E4C793" stroke-width="1.4"/>
+          <text x="475" y="60" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="14" fill="#B8701F" font-weight="600">Kafka +</text>
+          <text x="475" y="78" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="14" fill="#B8701F" font-weight="600">Python</text>
+          <text x="475" y="98" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10.5" fill="#95611D">pipeline · SQL</text>
+ 
+          <rect x="590" y="30" width="150" height="80" rx="10" fill="#FBFAF6" stroke="#DBD4C2" stroke-width="1.4"/>
+          <text x="665" y="65" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="14" fill="#1B2430" font-weight="600">Insights</text>
+          <text x="665" y="84" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10.5" fill="#746C5C">dashboards</text>
+        </svg>
+      </div>
+ 
+      <div class="track-filter" role="group" aria-label="Filter by track">
+        <button class="track-btn is-active" data-set-track="all">All work</button>
+        <button class="track-btn" data-set-track="backend">Backend &amp; APIs</button>
+        <button class="track-btn" data-set-track="data">Data engineering</button>
+      </div>
+ 
+      <p class="summary">I'm a Computer Science graduate currently working as a Java developer at Capgemini, where I design RESTful APIs and microservices in Java and Spring Boot, and write enterprise integration flows on SAP BTP Integration Suite and MuleSoft. Alongside that, I'm building a data engineering track — cleaning and analyzing data in Python and SQL, working hands-on with Apache Kafka and Apache Spark, and applying the same API and systems-design habits to data pipelines. I've also started building LLM-powered applications with LangChain and LangGraph.</p>
+ 
+      <div class="capabilities">
+        <div class="capability" data-track-item="backend">
+          <h4>Backend &amp; APIs</h4>
+          <p>REST APIs and microservices in Java and Spring Boot, with JWT authentication and object-oriented design for systems that scale.</p>
+        </div>
+        <div class="capability" data-track-item="backend">
+          <h4>Enterprise integration</h4>
+          <p>Integration flows on SAP BTP and MuleSoft — JMS messaging, Groovy scripting, OData, retry and dead-letter-queue handling.</p>
+        </div>
+        <div class="capability" data-track-item="data">
+          <h4>Data engineering &amp; analytics</h4>
+          <p>Cleaning, structuring and analyzing data in Python and SQL, hands-on with Apache Kafka and Apache Spark, and visualizing trends.</p>
+        </div>
+        <div class="capability" data-track-item="both">
+          <h4>Agentic AI</h4>
+          <p>LLM applications with LangChain and LangGraph, prompt engineering, and daily use of AI-assisted tools like Copilot and Cursor.</p>
+        </div>
+      </div>
+    </section>
+ 
+    <!-- EXPERIENCE -->
+    <section id="experience" class="panel">
+      <h2>Experience</h2>
+ 
+      <ol class="timeline">
+        <li class="timeline-item">
+          <h4>Java Developer / Software Developer — Capgemini</h4>
+          <p class="timeline-meta">Pune, India · 2024 — Present</p>
+          <ul>
+            <li>Completed an 18-month intensive training program in Core Java, Spring Boot and microservices architecture — covering REST API design, JWT-based authentication, DataWeave and API-led connectivity.</li>
+            <li>Designed and built RESTful APIs and microservices in Java and Spring Boot, applying object-oriented design for scalable, maintainable backend systems.</li>
+            <li>Built production-ready Node.js microservices for enterprise clients, using the same REST API and microservices patterns as the Java/Spring Boot work.</li>
+            <li>Developed integration flows on SAP BTP Integration Suite, including JMS messaging, Groovy scripting and exception handling.</li>
+            <li>Selected for a live client project ahead of peers, based on technical performance during training.</li>
+          </ul>
+        </li>
+      </ol>
+ 
+      <h3>Education</h3>
+      <div class="edu-block">
+        <strong>Bachelor of Technology, Computer Science — Lovely Professional University</strong>
+        Phagwara, Punjab · Sept 2020 — June 2024
+      </div>
+ 
+      <h3>Certifications &amp; achievements</h3>
+      <span class="stat-badge">250+ DSA problems solved</span>
+      <ul class="cert-list">
+        <li>EF SET English Certificate — C2 Advanced (76/100)</li>
+        <li>Smart India Hackathon (April 2022) — selected for the national round</li>
+        <li>Coding Ninjas Top Performer (Feb 2023) — excellence certificate for outstanding performance</li>
+      </ul>
+    </section>
+ 
+    <!-- PROJECTS -->
+    <section id="projects" class="panel">
+      <h2>Projects</h2>
+ 
+      <div class="project-grid">
+ 
+        <article class="project" data-track-item="backend">
+          <div class="project-head">
+            <h3>SAP BTP integration — Johnson &amp; Johnson</h3>
+            <span class="project-context">Capgemini client engagement</span>
+          </div>
+          <div class="tag-row">
+            <span class="tag">SAP BTP</span><span class="tag">JMS</span><span class="tag">Groovy</span><span class="tag">OData</span>
+          </div>
+          <ul>
+            <li>Built backend integration flows (SAP iFlows) that consume messages from Solace queues through the AEM adapter, with exception handling and retry logic.</li>
+            <li>Implemented dead-letter-queue routing in Groovy, using value mapping to classify technical and functional errors.</li>
+            <li>Configured JMS messaging between flows for reliable, asynchronous backend processing.</li>
+            <li>Integrated OData APIs through the HTTP adapter with dynamic query parameters and XML-to-JSON conversion for downstream services.</li>
+          </ul>
+        </article>
+ 
+        <article class="project" data-track-item="backend">
+          <div class="project-head">
+            <h3>API integration migration — Kimberly-Clark</h3>
+            <span class="project-context">Capgemini client engagement</span>
+          </div>
+          <div class="tag-row">
+            <span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">Docker</span><span class="tag">CI/CD</span>
+          </div>
+          <ul>
+            <li>Led migration of enterprise API integrations from MuleSoft to a Node.js/Express backend, replicating existing flows as REST microservices.</li>
+            <li>Containerized services with Docker for consistent deployment, and set up a CI/CD pipeline to automate build, test and deploy.</li>
+            <li>Delivered production-ready microservices with zero data loss and minimal downtime during cutover.</li>
+          </ul>
+        </article>
+ 
+        <article class="project" data-track-item="data">
+          <div class="project-head">
+            <h3>Flight fare analytics</h3>
+            <span class="project-context">College project</span>
+          </div>
+          <div class="tag-row">
+            <span class="tag">Python</span><span class="tag">Data cleaning</span><span class="tag">Visualization</span>
+          </div>
+          <ul>
+            <li>Analyzed flight fare and timing data to recommend the cheapest, most suitable time for a customer to book a ticket around their preferred arrival window.</li>
+            <li>Cleaned and structured raw fare data in Python before analysis.</li>
+            <li>Built graphs to surface pricing trends and make the recommendation easy to read at a glance.</li>
+          </ul>
+        </article>
+ 
+        <article class="project" data-track-item="data">
+          <div class="project-head">
+            <h3>Real-time data pipeline practice</h3>
+            <span class="project-context">Self-directed</span>
+          </div>
+          <div class="tag-row">
+            <span class="tag">Apache Kafka</span><span class="tag">Python</span><span class="tag">APIs</span>
+          </div>
+          <ul>
+            <li>Hands-on practice with Apache Kafka producers and consumers to work with real-time data streaming.</li>
+            <li>Paired this with API development and Python for data cleaning, structuring and graphing.</li>
+            <li>Used it to extend REST API experience from Java into Python-based data workflows.</li>
+          </ul>
+        </article>
+ 
+        <article class="project" data-track-item="backend">
+          <div class="project-head">
+            <h3>MedX-Pharmacy</h3>
+            <span class="project-context">Capstone project · Jan – May 2024</span>
+          </div>
+          <div class="tag-row">
+            <span class="tag">Web app</span><span class="tag">Full-stack</span>
+          </div>
+          <ul>
+            <li>Built a pharmacy management web app covering prescription orders, inventory tracking and customer interactions.</li>
+            <li>Added a medication reminder feature to help patients stay on schedule.</li>
+            <li>Included a stress-relief game to support user wellness and engagement.</li>
+          </ul>
+        </article>
+ 
+        <article class="project" data-track-item="both">
+          <div class="project-head">
+            <h3>Fitness website — Code-a-Thon</h3>
+            <span class="project-context">24-hour hackathon, LPU · 2023</span>
+          </div>
+          <div class="tag-row">
+            <span class="tag">Team project</span><span class="tag">Full-stack</span>
+          </div>
+          <ul>
+            <li>Collaborated in a 24-hour Code-a-Thon at Lovely Professional University to build a fitness website.</li>
+            <li>Delivered personalized diet plans and real-time weather forecasting based on the user's location.</li>
+          </ul>
+        </article>
+ 
+      </div>
+    </section>
+ 
+    <!-- SKILLS -->
+    <section id="skills" class="panel">
+      <h2>Skills</h2>
+ 
+      <div class="skills-columns">
+        <div class="skill-col" data-track-item="backend">
+          <h3><span class="track-swatch"></span>Backend &amp; APIs</h3>
+          <div class="chip-list">
+            <span class="chip">Java</span><span class="chip">Spring Boot</span><span class="chip">Spring MVC/REST</span>
+            <span class="chip">Microservices</span><span class="chip">JWT Auth</span><span class="chip">Node.js</span>
+            <span class="chip">Express.js</span><span class="chip">SAP BTP</span><span class="chip">MuleSoft</span>
+            <span class="chip">JMS</span><span class="chip">OData</span><span class="chip">Groovy</span>
+            <span class="chip">Docker</span><span class="chip">CI/CD</span><span class="chip">Git/GitHub</span>
+            <span class="chip">Postman</span><span class="chip">PostgreSQL</span><span class="chip">MongoDB</span>
+          </div>
+        </div>
+ 
+        <div class="skill-col" data-track-item="data">
+          <h3><span class="track-swatch"></span>Data engineering &amp; analytics</h3>
+          <div class="chip-list">
+            <span class="chip">Python</span><span class="chip">SQL</span><span class="chip">Apache Kafka</span>
+            <span class="chip">Apache Spark</span><span class="chip">Tableau</span><span class="chip">Excel</span>
+            <span class="chip">Scala</span><span class="chip">Data cleaning</span><span class="chip">Data visualization</span>
+          </div>
+        </div>
+ 
+        <div class="skill-col" data-track-item="both">
+          <h3><span class="track-swatch"></span>AI, languages &amp; tooling</h3>
+          <div class="chip-list">
+            <span class="chip">LangChain</span><span class="chip">LangGraph</span><span class="chip">Prompt engineering</span>
+            <span class="chip">GitHub Copilot</span><span class="chip">Cursor</span><span class="chip">v0.dev</span>
+            <span class="chip">JavaScript</span><span class="chip">TypeScript</span><span class="chip">HTML/CSS</span>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+    <!-- CONTACT -->
+    <section id="contact" class="panel">
+      <h2>Contact</h2>
+      <p class="summary">Open to backend engineer and data engineer roles. The fastest way to reach me is email.</p>
+ 
+      <div class="contact-grid">
+        <button class="contact-card" id="copy-email-btn" type="button">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>
+          <span id="copy-email-label">soniamrat88@gmail.com</span>
+        </button>
+ 
+        <a class="contact-card" href="tel:+917887251640">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.98.36 1.94.68 2.86a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.22-1.25a2 2 0 0 1 2.11-.45c.92.32 1.88.55 2.86.68A2 2 0 0 1 22 16.92z"/></svg>
+          <span>+91 78872 51640</span>
+        </a>
+ 
+        <a class="contact-card" href="https://linkedin.com/in/amritsoni12" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14L21 3"/></svg>
+          <span>LinkedIn — /in/amritsoni12</span>
+        </a>
+ 
+        <a class="contact-card" href="https://amritsoni.github.io/Portfolio-Amrit-Soni" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14L21 3"/></svg>
+          <span>GitHub portfolio</span>
+        </a>
+ 
+        <a class="contact-card" href="https://amritsoni.online" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14L21 3"/></svg>
+          <span>amritsoni.online</span>
+        </a>
+ 
+        <a class="contact-card" href="AmritSoni_Resume.pdf" download>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="M7 10l5 5 5-5"/><path d="M5 21h14"/></svg>
+          <span>Download résumé (PDF)</span>
+        </a>
+      </div>
+    </section>
+ 
   </main>
-
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+</div>
+ 
+<footer>Amrit Soni · Pune, Maharashtra, India</footer>
+ 
+<script>
+  // scrollspy
+  (function(){
+    var sections = document.querySelectorAll('main.content section[id]');
+    var routes = document.querySelectorAll('.route');
+    var map = {};
+    routes.forEach(function(r){ map[r.dataset.route] = r; });
+ 
+    var observer = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){
+          routes.forEach(function(r){ r.classList.remove('is-active'); });
+          var active = map[entry.target.id];
+          if(active) active.classList.add('is-active');
+        }
+      });
+    }, { rootMargin: '-35% 0px -55% 0px', threshold: 0 });
+ 
+    sections.forEach(function(s){ observer.observe(s); });
+  })();
+ 
+  // track filter
+  (function(){
+    var buttons = document.querySelectorAll('[data-set-track]');
+    buttons.forEach(function(btn){
+      btn.addEventListener('click', function(){
+        buttons.forEach(function(b){ b.classList.remove('is-active'); });
+        btn.classList.add('is-active');
+        document.body.classList.remove('filter-backend', 'filter-data');
+        var track = btn.dataset.setTrack;
+        if(track === 'backend') document.body.classList.add('filter-backend');
+        if(track === 'data') document.body.classList.add('filter-data');
+      });
+    });
+  })();
+ 
+  // copy email
+  (function(){
+    var btn = document.getElementById('copy-email-btn');
+    var label = document.getElementById('copy-email-label');
+    if(!btn) return;
+    btn.addEventListener('click', function(){
+      var email = 'soniamrat88@gmail.com';
+      function done(){
+        var original = label.textContent;
+        label.textContent = 'Copied — ' + email;
+        setTimeout(function(){ label.textContent = original; }, 1800);
+      }
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(email).then(done).catch(fallback);
+      } else {
+        fallback();
+      }
+      function fallback(){
+        var ta = document.createElement('textarea');
+        ta.value = email;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        try{ document.execCommand('copy'); done(); }catch(e){}
+        document.body.removeChild(ta);
+      }
+    });
+  })();
+</script>
+ 
 </body>
-
 </html>
